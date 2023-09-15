@@ -1,0 +1,208 @@
+:root {
+    --header: #26292e;
+    --pink: #e7718b;
+    --pbord: #f7b5c3;
+    --btn: #2a2a2a;
+    --mid: #f0e8e8;
+    --bg: #ffffff;
+    --box: #434242;
+    --shad: #d1d1cf;
+    --bord: #bdc5da;
+    
+    --font: 'Butterfly Kids', cursive;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+}
+
+a {
+    text-decoration: none;
+    color: var(--bg);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: var(--bg);
+}
+
+.inner {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.top-header {
+    padding: 20px 0;
+    background-color: var(--header);
+    height: 80px;
+}
+
+.heading {
+    font-family: var(--font);
+    font-size: 40px;
+    color: var(--bg)
+}
+
+.social-list {
+    display: inline;
+}
+
+.heading, #topSocials {
+    margin: 0;
+    width: 50%;
+    float: left;
+}
+
+.bottom-header {
+    padding: 20px 0;
+    background-color: var(--pink);
+}
+
+#box1, #box2 {
+    width: 50%;
+    height: 380px;
+    float: left;
+}
+
+.sub-heading {
+    font-size: 30px;
+}
+
+.btn-div {
+    margin-top: 80px;
+}
+
+.btn {
+    padding: 10px;
+    color: var(--bg);
+    background-color: var(--btn);
+    border-radius: 5px;
+}
+
+#learnMore {
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image-laptop {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.content-box {
+    width: calc(100% / 3);
+    float: left;
+    padding-right: 30px;
+}
+
+.content-section1 {
+    background-color: var(--mid);
+}
+
+.product-section {
+    border-top: 6px solid var(--pbord);
+}
+
+.product-heading, .comment-heading {
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.comment-heading {
+    margin-left: 20px;
+}
+
+.product-div {
+    float: left;
+    padding-right: 30px;
+    width: 60%;
+}
+
+.comment-div {
+    float: right;
+    padding-left: 20px;
+    width: 40%;
+}
+
+.products {
+    height: 450px;
+}
+
+.product {
+    width: 300px;
+    height: 150px;
+    border: 8px solid var(--bord);
+    box-shadow: 0px 10px 10px 3px var(--shad);
+    background-color: var(--box);
+
+}
+
+#product1 {
+    float: left;
+    margin-top: 30px;
+}
+
+#product2 {
+    float: right;
+    margin-top: 30px;
+}
+
+#product3 {
+    float: left;
+    margin-top: 80px;
+}
+
+#product4 {
+    float: right;
+    margin-top: 80px;
+}
+
+.content-section {
+    margin-top: 30px;
+}
+
+.footer {
+    padding: 30px 0;
+    color: var(--bg);
+    background-color: var(--header);
+}
+
+
+.colophon {
+    float: left;
+    width: 50%;
+    margin: 0;
+    color: var(--bg);
+}
+
+#socialsList {
+    margin: 0;
+}
+
+#bottomSocials {
+    float: left;
+    width: 50%;
+}
+
+.socials {
+    float: right;
+    color: var(--bg);
+} 
+
+.clear {
+    clear: both;
+}
